@@ -4,9 +4,10 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `
+  <!-- <router-outlet /> -->
+    <h1> Curso Angular </h1>
+    <h2> Components </h2>
+  `,
 })
-export class AppComponent {
-  title = 'my-first-project';
-}
+export class AppComponent {}
