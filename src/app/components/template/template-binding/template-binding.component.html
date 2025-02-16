@@ -15,3 +15,10 @@
 <h2>Attribute binding</h2>
 <!-- <element  [attr.attribute-you-are-targeting]="value"></element> -->
 <p [attr.aria-label]="name" [attr.title]="name">Eric Da Cruz</p>
+
+<hr />
+
+<h2>Class and Style binding</h2>
+<p [class.background-red]="true">{{ name }}</p>
+
+<p [style.text-decoration]="isTextDecoration">{{ age }}</p>
